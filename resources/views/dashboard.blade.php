@@ -23,7 +23,7 @@
   <div class="row">
     <div class="col-lg-4 col-md-8 mb-4">
       <div class="info-box shadow-sm" style="min-height: 110px">
-        <span class="info-box-icon bg-primary elevation-1" style="min-width: 110px"><i class="fas fa-cubes"></i></span>
+        <span class="info-box-icon bg-secondary elevation-1" style="min-width: 110px"><i class="fas fa-cubes"></i></span>
         <div class="info-box-content">
           <span class="info-box-text">Jumlah Produk</span>
           <span class="info-box-number">{{ $jumlahProduk }}</span>
