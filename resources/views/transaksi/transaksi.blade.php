@@ -23,7 +23,7 @@
     <div class="container mt-5">
 
         <!-- Tombol Tambah -->
-        <a href="\tambahtransaksi" class="btn btn-outline-secondary mb-3">Tambah +</a>
+        <a href="\tambahtransaksi" class="btn btn-outline-secondary mb-3">Tambah Transaksi +</a>
         
        
         
@@ -100,7 +100,7 @@
                     <td>{{ $transaksi->tanggal_pengajuan }}</td>
                     <td>
                         <a href="tampilkantransaksi/{{ $transaksi->id_transaksi }}"
-                            class="btn btn-outline-warning">Edit</a>
+                            class="btn btn-outline-warning">Ubah</a>
                         <a href="javascript:void(0)" class="btn btn-outline-danger"
                             onclick="hapusTransaksi('{{ $transaksi->id_transaksi  }}')">Hapus</a>
                     </td>

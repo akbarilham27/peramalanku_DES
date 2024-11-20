@@ -33,7 +33,7 @@
     <!-- /.login-logo -->
     <div class="card card-outline card-primary">
       <div class="card-header text-center">
-        <a href="{{ asset('template/index2.html') }}" class="h1"><b>Login</b></a>
+        <div class="h1"><b>Login</b></div>
       </div>
       <div class="card-body">
         <p class="login-box-msg">Sign in to start your session</p>

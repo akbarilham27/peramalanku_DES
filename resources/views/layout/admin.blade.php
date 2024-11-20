@@ -47,7 +47,7 @@
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
         <!-- Navbar Search -->
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link" data-widget="navbar-search" href="#" role="button">
             <i class="fas fa-search"></i>
           </a>
@@ -66,10 +66,10 @@
               </div>
             </form>
           </div>
-        </li>
+        </li> --}}
 
         <!-- Messages Dropdown Menu -->
-        <li class="nav-item dropdown">
+        {{-- <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-comments"></i>
             <span class="badge badge-danger navbar-badge">3</span>
@@ -155,7 +155,7 @@
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
           </div>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a class="nav-link" data-widget="fullscreen" href="#" role="button">
             <i class="fas fa-expand-arrows-alt"></i>
@@ -173,9 +173,9 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="index3.html" class="brand-link">
+      <a href="https://www.emc-indonesia.biz/" class="brand-link">
         <img
-          src="{{ asset('https://lh3.googleusercontent.com/p/AF1QipMR82BUwud3a0VwlawMoI9B59SWdb7gIXwdB0UU=s1600-w376') }}"
+          src="{{ asset('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapnB_jpFYvtX_fWcn8Si9PDWqH_DzYavYzA&s') }}"
           alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light"> EMC Music Centre </span>
       </a>

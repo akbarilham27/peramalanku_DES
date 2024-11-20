@@ -23,7 +23,7 @@
     <div class="container mt-5">
 
         <!-- Tombol Tambah -->
-        <a href="\tambahuser" class="btn btn-outline-secondary mb-3">Tambah +</a>
+        <a href="\tambahuser" class="btn btn-outline-secondary mb-3">Tambah User +</a>
 
         <!-- Alert Pesan -->
         @if($message = Session::get('success'))

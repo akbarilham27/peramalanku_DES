@@ -83,7 +83,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="card shadow-sm">
             <div class="card-header bg-primary text-white">
-              <h5 class="card-title mb-0">Penjualan Tahun Pertama</h5>
+              <h5 class="card-title mb-0">Penjualan Tahun 2022</h5>
             </div>
             <div class="card-body">
               <div class="chart-container" style="height: 60vh;">
@@ -97,7 +97,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="card shadow-sm">
             <div class="card-header bg-success text-white">
-              <h5 class="card-title mb-0">Penjualan Tahun Berikutnya</h5>
+              <h5 class="card-title mb-0">Penjualan Tahun 2023-2024</h5>
             </div>
             <div class="card-body">
               <div class="chart-container" style="height: 60vh;">
@@ -259,7 +259,7 @@
     chartConfig(
       document.getElementById('myChart1').getContext('2d'),
       labelsTahunPertama, dataTerbatasTahunPertama, // Menggunakan data terbatas pada grafik pertama
-      'Penjualan Tahun Pertama (Dibatasi)',
+      'Penjualan Tahun 2022',
       { background: 'rgba(255, 99, 132, 0.2)', border: 'rgba(255, 99, 132, 1)' }
     );
   

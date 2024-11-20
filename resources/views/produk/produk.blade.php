@@ -23,7 +23,7 @@
     <div class="container mt-5">
 
         <!-- Tombol Tambah -->
-        <a href="\tambahproduk" class="btn btn-outline-secondary mb-3">Tambah +</a>
+        <a href="\tambahproduk" class="btn btn-outline-secondary mb-3">Tambah Produk +</a>
 
         <!-- Alert Pesan -->
         @if($message = Session::get('success'))
@@ -89,7 +89,7 @@
                     <td>{{ $produk->jenis_produk }}</td>
                     <td>{{ $produk->harga_produk }}</td>
                     <td>
-                        <a href="tampilkanproduk/{{ $produk->id_produk }}" class="btn btn-outline-warning">Edit</a>
+                        <a href="tampilkanproduk/{{ $produk->id_produk }}" class="btn btn-outline-warning">Ubah</a>
                         <a href="javascript:void(0)" class="btn btn-outline-danger"
                             onclick="hapusProduk('{{ $produk->id_produk }}')">Hapus</a>
                     </td>
